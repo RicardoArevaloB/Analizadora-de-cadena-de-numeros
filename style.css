@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -50,6 +54,14 @@ button{
 #numbers{
     font-size: 1rem;
     margin: 1%;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border: solid 1px rgb(2, 58, 2);
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 footer{
